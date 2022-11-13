@@ -23,14 +23,14 @@ function App() {
                 />
                 <Store
                     title="신이내린떡볶이"
-                    detail="#떡볶이_맛집"
+                    detail="#떡볶이_맛집 , 세트메뉴 추천"
                     address="서울특별시 동작구 노량진동"
                     imgSrc="sinaedduck.jpeg"
                     mapScr="https://goo.gl/maps/2r97zGg8ekvMz5qu9"
                 />
                 <Store
                     title="마라농장"
-                    detail="망원동 돈까스 맛집,웨이팅 최소 30분, 안심 기다릴만함"
+                    detail="숨겨진 마라탕 맛집 , 맛있게 매움, 2단계 추천"
                     address="서울특별시 마포구 망원동"
                     imgSrc="maranongjang.jpeg"
                     mapScr="https://goo.gl/maps/xEXyhPfhERfqxiYBA"
