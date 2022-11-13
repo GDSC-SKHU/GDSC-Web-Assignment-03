@@ -6,17 +6,19 @@ interface Props {
     detail: string;
     address: string;
     imgSrc: string;
-    // mapScr: string;
+    mapScr: string;
 }
 // 맛집 이름, 주소, 사진, 대표 메뉴 필수
 
-const Store = ({ title, detail, address, imgSrc }: Props) => {
+const Store = ({ title, detail, address, imgSrc, mapScr }: Props) => {
     return (
         <StoreBox>
-            <h2>{title}</h2>
-            <p>detail:{detail}</p>
-            <p>address:{address}</p>
-            <StoreImg src={imgSrc} alt={title} />
+            <a href={mapScr}>
+                <h2>{title}</h2>
+                <p>{detail}</p>
+                <StoreImg src={imgSrc} alt={title} />
+                <p>{address}</p>
+            </a>
         </StoreBox>
     );
 };
@@ -28,6 +30,13 @@ const StoreBox = styled.div`
     background-color: white;
     padding: 10px;
     width: 300px;
+    transition: all 0.3s;
+    &:hover {
+        transform: translateY(-15px);
+        box-shadow: 0 16px 43px -16px rgba(50, 50, 93, 0.25),
+            0 12px 20px -17px rgba(0, 0, 0, 0.3),
+            0 -8px 18px -12px rgba(0, 0, 0, 0.025);
+    }
 `;
 const StoreImg = styled.img`
     width: 100%;

@@ -9,27 +9,10 @@ function App() {
             <BackgroundDiv>
                 <Store
                     title="헤키"
-                    detail="망원동 돈까스 맛집"
+                    detail="망원동 돈까스 맛집,웨이팅 최소 30분, 기다릴만함"
                     address="서울특별시 마포구 망원동"
                     imgSrc="haekki.jpeg"
-                />
-                <Store
-                    title="헤키"
-                    detail="망원동 돈까스 맛집"
-                    address="서울특별시 마포구 망원동"
-                    imgSrc="haekki.jpeg"
-                />
-                <Store
-                    title="헤키"
-                    detail="망원동 돈까스 맛집"
-                    address="서울특별시 마포구 망원동"
-                    imgSrc="haekki.jpeg"
-                />
-                <Store
-                    title="헤키"
-                    detail="망원동 돈까스 맛집"
-                    address="서울특별시 마포구 망원동"
-                    imgSrc="haekki.jpeg"
+                    mapScr="https://goo.gl/maps/Dcud2rDbypYeTzse8"
                 />
             </BackgroundDiv>
         </>

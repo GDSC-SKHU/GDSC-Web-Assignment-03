@@ -10,6 +10,11 @@ const GlobalStyle = createGlobalStyle`
 html,body{
     background-color: #eff3f7;
     padding: 10px;
-}`;
+}
+a{
+    all:unset;
+}
+
+`;
 
 export default GlobalStyle;
