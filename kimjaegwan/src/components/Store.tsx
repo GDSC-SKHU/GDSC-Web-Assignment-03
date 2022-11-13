@@ -32,6 +32,7 @@ const StoreBox = styled.div`
     width: 300px;
     min-height: 430px;
     transition: all 0.3s;
+    border-radius: 5px;
     &:hover {
         transform: translateY(-15px);
         box-shadow: 0 16px 43px -16px rgba(50, 50, 93, 0.25),
@@ -40,6 +41,9 @@ const StoreBox = styled.div`
     }
 `;
 const StoreImg = styled.img`
+    box-shadow: 0 5px 5px -5px rgba(50, 50, 93, 0.25),
+        0 8px 16px -8px rgba(0, 0, 0, 0.3),
+        0 -6px 16px -6px rgba(0, 0, 0, 0.025);
     width: 100%;
     height: 300px;
     object-fit: cover;

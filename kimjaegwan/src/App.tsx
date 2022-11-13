@@ -19,21 +19,21 @@ function App() {
                     detail="#서울대입구_분위기_맛집 #와인바 #예약필수"
                     address="서울특별시 관악구 봉천동 1601-15"
                     imgSrc="chooksang.jpeg"
-                    mapScr="https://goo.gl/maps/Dcud2rDbypYeTzse8"
+                    mapScr="https://goo.gl/maps/PcEqKGri4yUJaAhH8"
                 />
                 <Store
                     title="신이내린떡볶이"
                     detail="#떡볶이_맛집"
                     address="서울특별시 동작구 노량진동"
                     imgSrc="sinaedduck.jpeg"
-                    mapScr="https://goo.gl/maps/Dcud2rDbypYeTzse8"
+                    mapScr="https://goo.gl/maps/2r97zGg8ekvMz5qu9"
                 />
                 <Store
                     title="마라농장"
                     detail="망원동 돈까스 맛집,웨이팅 최소 30분, 안심 기다릴만함"
                     address="서울특별시 마포구 망원동"
-                    imgSrc="haekki.jpeg"
-                    mapScr="https://goo.gl/maps/Dcud2rDbypYeTzse8"
+                    imgSrc="maranongjang.jpeg"
+                    mapScr="https://goo.gl/maps/xEXyhPfhERfqxiYBA"
                 />
             </BackgroundDiv>
         </>
