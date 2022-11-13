@@ -14,10 +14,10 @@ const Store = ({ title, detail, address, imgSrc, mapScr }: Props) => {
     return (
         <StoreBox>
             <a href={mapScr}>
-                <h2>{title}</h2>
-                <p>{detail}</p>
                 <StoreImg src={imgSrc} alt={title} />
+                <h2>{title}</h2>
                 <p>{address}</p>
+                <p style={{ paddingTop: '20px' }}>{detail}</p>
             </a>
         </StoreBox>
     );
@@ -30,6 +30,7 @@ const StoreBox = styled.div`
     background-color: white;
     padding: 10px;
     width: 300px;
+    min-height: 430px;
     transition: all 0.3s;
     &:hover {
         transform: translateY(-15px);
