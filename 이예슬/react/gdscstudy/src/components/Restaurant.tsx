@@ -29,9 +29,11 @@ const StyleSection = styled.section`
   display: flex;
   background-color: #ffebcf;
   height: 80%;
+  display: flex;
+  justify-content: space-around;
 `
 const StyledArticle = styled.article`
-  width: 400px;
+  width: 500px;
   padding: 20px;
   margin: 30px 50px;
   text-align: center;
@@ -47,17 +49,20 @@ const StyledArticle = styled.article`
 const StyledH2 = styled.h2`
   font-size: 30px;
   font-family: serif;
+  margin: 20px
 `;
 
 const StyledH3 = styled.h3`
   font-size: 30px;
   font-family: serif;
+  margin: 20px;
 `;
 
 const Summary = styled.p`
   color: black;
   margin: 5px;
   font-family: serif;
+  font-size: 25px;
 `;
 
 const StyledImg = styled.img`
