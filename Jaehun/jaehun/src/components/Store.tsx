@@ -30,7 +30,8 @@ export default Store;
 const StyledArticle = styled.article`
   width: 90%;
   margin: 0 auto;
-  background-color: #ff6f6f;
+  border: 3px solid #e3dff8;
+  background-color: #fcb8b8;
   padding: 30px;
   margin-top: 30px;
   border-radius: 25px;

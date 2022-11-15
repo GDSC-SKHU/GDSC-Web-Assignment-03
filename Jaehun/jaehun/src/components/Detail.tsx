@@ -25,7 +25,7 @@ const StyledA = styled.a`
     color: black;
   }
   :hover {
-    color: red;
+    color: #df5050;
     transform: translateY(-10px);
     transition: all 0.3s;
   }
@@ -34,6 +34,7 @@ const StyledA = styled.a`
 const StyledH2 = styled.h2`
   font-size: 40px;
   margin-left: 3rem;
+  margin-top: 100px;
 `;
 
 const StyledP = styled.p`
