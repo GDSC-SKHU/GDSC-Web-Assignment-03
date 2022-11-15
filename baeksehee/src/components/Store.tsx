@@ -43,6 +43,7 @@ const StyledArticle = styled.article`
 const StyledInsertImg = styled.img`
   width: 20px;
   height: 20px;
+  margin-left: 120px;
 `;
 
 const StyledH2 = styled.h2`
