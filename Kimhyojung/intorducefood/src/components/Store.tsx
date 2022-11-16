@@ -33,11 +33,11 @@ const Store = ({ name, address, imgSrc, imgAlt, mainfood }: Props) => {
 
 const StyleStore = styled.section`
   background-color: #eff5f5;
+  height: auto;
   color: #a1a1a1;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: center;
   transition: all 1s;
   margin: 5px;
   &:hover {
@@ -59,8 +59,9 @@ const StyleAddress = styled.p`
   justify-content: center;
 `;
 const StyleImg = styled.img`
-  width: 100%;
+  display: flex;
   height: 80%;
+  width: 100%;
   object-fit: cover;
 `;
 /*
