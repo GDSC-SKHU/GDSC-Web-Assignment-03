@@ -12,6 +12,7 @@ div{
     height:100%;
 }
 
+
 nav{
     width: 100vw;
     height: 20%;
@@ -23,9 +24,9 @@ nav{
 }
 h1{
     margin: 0px 20% 10px 20%;
-    padding-top: 30px;
+    padding-top: 20px;
     text-align: center;
-    font-size: xx-large;
+    font-size: 40px;
 }
 
 nav > article{
@@ -33,10 +34,6 @@ nav > article{
     gap: 20px;
     justify-content: center;
 
-    height: 46px;
-    margin-top: 25px;
-}
-span{
-    background-color: rgb(255, 219, 219);
-    border-radius: 40%;
+    height: 55px;
+    margin-top: 30px;
 }
