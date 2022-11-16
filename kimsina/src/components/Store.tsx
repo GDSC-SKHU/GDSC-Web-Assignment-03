@@ -1,10 +1,20 @@
 import StoreCircle from "./StoreCircle";
+
+import styled from "styled-components";
 const Store = () => {
   return (
-    <div className="Store">
+    <StoreCss className="Store">
       <StoreCircle />
-    </div>
+      <StoreCircle />
+      <StoreCircle />
+      <StoreCircle />
+    </StoreCss>
   );
 };
-
 export default Store;
+
+const StoreCss = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2em;
+`;
