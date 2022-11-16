@@ -117,6 +117,7 @@ const StyledArticle = styled.article`
   padding: 20px;
   margin: 30px 50px;
   text-align: center;
+  box-shadow: 5px 6px 6px grey;
 
   border-radius: 25px;
   border: 3px solid lightgray;
