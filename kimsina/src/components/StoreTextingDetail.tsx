@@ -26,6 +26,7 @@ const StoreTextingDetailCircle = styled.div`
   height: 15em;
   padding: 1em;
   box-shadow: 0.5em 0.5em 1em #c8c8c8;
+  margin: 1em 0;
 `;
 
 const StoreTextingDetailSpan = styled.span`
@@ -34,4 +35,5 @@ const StoreTextingDetailSpan = styled.span`
 
 const StoreTextingDetailp = styled.p`
   font-size: 0.8em;
+  text-align: center;
 `;

@@ -1,11 +1,14 @@
 import "../StoreCircle.css";
 import styled from "styled-components";
 
-const StoreCircle = () => {
-  return <StyledStoreCircle></StyledStoreCircle>;
+interface Props {
+  src: string;
+}
+const StoreCircle = ({ src }: Props) => {
+  return <StyledStoreCircle src={src}></StyledStoreCircle>;
 };
 
-const StyledStoreCircle = styled.div`
+const StyledStoreCircle = styled.img`
   width: 10em;
   height: 10em;
   background-color: black;
