@@ -9,7 +9,7 @@ import Store4Img from './Store4.jpg';
 function App() {
   return (
     <Fragment>
-      <GlobalStyle></GlobalStyle>
+      <GlobalStyle />
       <h1>나만의 맛집 소개</h1>
       <Store
         name="바스버거"
