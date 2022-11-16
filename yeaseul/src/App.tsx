@@ -1,6 +1,6 @@
 import "./index.css";
 import Nav from "./components/Nav";
-import Restaurant from "./components/Restaurant";
+import Store from "./components/Store";
 
 import { useState } from "react";
 
@@ -15,7 +15,7 @@ function App() {
     <div>
       <Nav setter={setNumber} />
       {number === 0 && (
-        <Restaurant
+        <Store
           title="담소 소사골 순대육개장 "
           summary="사당점"
           imgSrc="damso.jpeg"
@@ -36,7 +36,7 @@ function App() {
         />
       )}
       {number === 1 && (
-        <Restaurant
+        <Store
           title="요란한 부엌"
           summary="사당역"
           imgSrc="요란한부엌.png"
@@ -57,7 +57,7 @@ function App() {
         />
       )}
       {number === 2 && (
-        <Restaurant
+        <Store
           title="이가네 양꼬치 광명역점"
           summary="광명역"
           imgSrc="이가네.png"
@@ -78,7 +78,7 @@ function App() {
         />
       )}
       {number === 3 && (
-        <Restaurant
+        <Store
           title="오무야"
           summary="역곡역"
           imgSrc="오무야.png"

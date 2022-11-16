@@ -20,7 +20,7 @@ interface Props {
   price3: string;
 }
 
-const Restaurant = ({
+const Store = ({
   title,
   summary,
   imgSrc,
@@ -177,4 +177,4 @@ const StyledP = styled.p`
   font-family: serif;
 `;
 
-export default Restaurant;
+export default Store;
