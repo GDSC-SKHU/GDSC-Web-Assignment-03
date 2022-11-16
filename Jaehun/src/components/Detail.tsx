@@ -21,6 +21,7 @@ export default Detail;
 
 const StyledA = styled.a`
   text-decoration: none;
+  display: inline-block;
   :visited {
     color: black;
   }

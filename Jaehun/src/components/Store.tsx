@@ -65,6 +65,7 @@ const StyledFoodImg = styled.div`
 const StyledRotateFood = styled.div`
   :hover {
     cursor: pointer;
+    transition: 3s all ease;
     animation: rotateFood 10s linear infinite;
   }
   @keyframes rotateFood {
