@@ -17,7 +17,7 @@ function App() {
         imgSrc={Store1Img}
         mainfood="바스버거,더블베이컨치즈버거"
         imgAlt="햄버거최고"
-      ></Store>
+      />
       <Store
         name="탭퍼블릭"
         address="서울특별시 종로구 청진동 종로 33"
